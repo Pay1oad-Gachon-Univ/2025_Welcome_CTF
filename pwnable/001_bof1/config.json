@@ -1,0 +1,11 @@
+{
+    "challenges": [
+      {
+        "port": 9001,
+        "flag": "Pay1oad{System_func_uses_movaps__c1b7385a67c1c821deaeecbee0e01985}",
+        "description": "This is a sample challenge description.",
+        "title": "bof1",
+        "point": 100
+      }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "challenges": [
+      {
+        "port": 9002,
+        "flag": "Pay1oad{9fcd6f6f501b2018afacab2ae2765fd3}",
+        "description": "This is a sample challenge description.",
+        "title": "bof2",
+        "point": 100
+      }
+    ]
+}
