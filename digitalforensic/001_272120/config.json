@@ -1,0 +1,11 @@
+{
+    "challenges": [
+      {
+        "port": ,
+        "flag": "Pay1oad{M4NY_D1R3CT0RY}",
+        "description": "삭제된 파일!",
+        "title": "Forensic + Misc?",
+        "point": 200
+      }
+    ]
+}
