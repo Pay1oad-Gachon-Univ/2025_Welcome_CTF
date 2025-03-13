@@ -1,0 +1,11 @@
+{
+    "challenges": [
+      {
+        "port": 9004,
+        "flag": "Pay1oad{A_Thousand_year_voyage_under_the_wisdom_of_the_MOON}",
+        "description": "This is a sample challenge description.",
+        "title": "ELDEN RING",
+        "point": 100
+      }
+    ]
+}
