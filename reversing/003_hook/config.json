@@ -1,11 +1,11 @@
 {
     "challenges": [
       {
-        "port": ,
+        "port": "",
         "flag": "Pay1oad{mast3r1ng_r3v3rs3_sk1lls!}",
-        "description": "",
-        "title": "",
-        "point": 
+        "description": "do you know frida kahlo? (Hint : 메시지 박스에 집중해보세요... 다른게... 보인다!)",
+        "title": "who_is_she?",
+        "point": "300"
       }
     ]
 }

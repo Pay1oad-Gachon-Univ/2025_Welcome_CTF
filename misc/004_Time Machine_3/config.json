@@ -1,0 +1,11 @@
+{
+    "challenges": [
+      {
+        "port": "",
+        "flag": "Pay1oad{CAT}",
+        "description": "타임머신 개발에 실패한 이동하는 수능을 망친 후 도피했습니다!\n추적하기 위해, 도피 중 사용한 IP를 추적하였습니다. 동선을 분석해주세요!\nHINT : 영어 3글자 대문자\n\nFLAG : Pay1oad{}\n",
+        "title": "Time Machine - 수능",
+        "point": 100
+      }
+    ]
+}

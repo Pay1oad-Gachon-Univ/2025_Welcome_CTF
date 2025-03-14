@@ -1,0 +1,11 @@
+{
+    "challenges": [
+      {
+        "port": "",
+        "flag": "Pay1oad{두부새우젓국}",
+        "description": "급식충 이동하는 고등학생 시절 급식을 먹기 위해 타임머신을 탔습니다!\n2021.06.16 한솔고등학교의 점심 메뉴를 기억해주세요..!\n\nFLAG : Pay1oad{점심 국 메뉴}\n",
+        "title": "Time Machine - 급식충",
+        "point": 100
+      }
+    ]
+}

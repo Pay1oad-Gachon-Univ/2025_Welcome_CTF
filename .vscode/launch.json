@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/korea/Desktop/2025_Welcome_CTF/pwnable/001_bof1/user",
-      "program": "c:/Users/korea/Desktop/2025_Welcome_CTF/pwnable/001_bof1/user/build/Debug/outDebug",
+      "cwd": "d:/git_temp/2025_Welcome_CTF/pwnable/001_bof1/server",
+      "program": "d:/git_temp/2025_Welcome_CTF/pwnable/001_bof1/server/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

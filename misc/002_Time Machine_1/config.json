@@ -1,0 +1,11 @@
+{
+    "challenges": [
+      {
+        "port": "",
+        "flag": "Pay1oad{CultwoFamily}",
+        "description": "나스닥을 w박은 이동하를 위한 타임머신을 개발했어요!\n타임머신을 타고 과거로 돌아온 동하는 가천대 뒷길 아래에 편의점을 방문했는데...\n경기 성남시 수정구 복정로20번길 20-12\nHINT : 대문자 2개, 띄어쓰기 없음\nFLAG : Pay1oad{현 GS25의 이전 상호}\n",
+        "title": "Time Machine - NASDAQ",
+        "point": 100
+      }
+    ]
+}

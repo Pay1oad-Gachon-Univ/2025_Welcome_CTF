@@ -1,7 +1,7 @@
 {
     "challenges": [
       {
-        "port": 9001,
+        "port": 1001,
         "flag": "Pay1oad{System_func_uses_movaps__c1b7385a67c1c821deaeecbee0e01985}",
         "description": "전형적인 BOF 문제입니다. 근데 셸 따기 전에 생각했나요?",
         "title": "stdbof",

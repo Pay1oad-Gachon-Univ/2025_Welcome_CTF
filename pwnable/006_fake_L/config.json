@@ -1,0 +1,11 @@
+{
+    "challenges": [
+      {
+        "port": 1007,
+        "flag": "Pay1oad{F4KE_L...0_V__E}",
+        "description": "Fake L.....",
+        "title": "Fake L.....",
+        "point": 100
+      }
+    ]
+}

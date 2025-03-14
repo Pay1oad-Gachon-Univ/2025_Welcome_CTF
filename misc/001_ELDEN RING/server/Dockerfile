@@ -1,4 +1,4 @@
-FROM python:3.9-slim
+FROM python:3.9-slim@sha256:d1fd807555208707ec95b284afd10048d0737e84b5f2d6fdcbed2922b9284b56
 
 # socat 설치 (네트워크 연결을 prob.py로 포워딩)
 RUN apt-get update && apt-get install -y socat && rm -rf /var/lib/apt/lists/*
@@ -18,7 +18,7 @@ RUN chown -R ctf:ctf /home/ctf
 USER ctf
 
 # 컨테이너가 열 포트 (예: 9004) 노출
-EXPOSE 9004
+EXPOSE 9999
 
 # socat을 이용해 TCP 포트 9004에서 연결을 받고, 연결 시 python prob.py를 실행
-CMD ["socat", "TCP-LISTEN:9004,reuseaddr,fork", "EXEC:python prob.py"]
+CMD ["socat", "TCP-LISTEN:9999,reuseaddr,fork", "EXEC:python prob.py"]

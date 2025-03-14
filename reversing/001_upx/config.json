@@ -1,11 +1,11 @@
 {
     "challenges": [
       {
-        "port": ,
+        "port": "",
         "flag": "Pay1oad{UpX_I_got_y0ooou!}",
-        "description": "",
-        "title": "",
-        "point": 
+        "description": "sleep하고 있는 공주님을 깨워주세요! 일단 성 입구부터 열고... (Hint : ida로 열어보세요. 어딘가 이상하지 않나요?)",
+        "title": "wake up!",
+        "point": "150"
       }
     ]
 }

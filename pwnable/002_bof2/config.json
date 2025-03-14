@@ -1,7 +1,7 @@
 {
     "challenges": [
       {
-        "port": 9002,
+        "port": 1002,
         "flag": "Pay1oad{9fcd6f6f501b2018afacab2ae2765fd3}",
         "description": "어라.. 이 장면 어디서 본 거 같은데?",
         "title": "Edge of Tomorrow",

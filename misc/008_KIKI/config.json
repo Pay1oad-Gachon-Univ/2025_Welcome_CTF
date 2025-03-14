@@ -1,0 +1,11 @@
+{
+  "challenges": [
+    {
+      "port": "",
+      "flag": "Pay1oad{this_is_real_flag!}",
+      "description": "지민이가 버리라고 한 문제입니다. 몰래 출제하기!",
+      "title": "ㅈ민이",
+      "point": 100
+    }
+  ]
+}

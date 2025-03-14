@@ -1,0 +1,12 @@
+
+{
+    "challenges": [
+      {
+        "port": 1007,
+        "flag": "Pay1oad{Binary_Only_is_EASYYYY}",
+        "description": "Fake L.....",
+        "title": "integer is not enough",
+        "point": 150
+      }
+    ]
+}

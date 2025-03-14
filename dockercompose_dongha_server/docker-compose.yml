@@ -1,0 +1,59 @@
+version: '3'
+services:
+
+  app_1:
+    build:
+      context: D:\git_temp\2025_Welcome_CTF\pwnable\001_bof1\server
+      dockerfile: Dockerfile
+    ports:
+      - "1001:9999"
+
+  app_2:
+    build:
+      context: D:\git_temp\2025_Welcome_CTF\pwnable\002_bof2\server
+      dockerfile: Dockerfile
+    ports:
+      - "1002:9999"
+
+  app_3:
+    build:
+      context: D:\git_temp\2025_Welcome_CTF\pwnable\003_command_injection\server
+      dockerfile: Dockerfile
+    ports:
+      - "1003:9999"
+  app_4:
+    build:
+      context: D:\git_temp\2025_Welcome_CTF\pwnable\004_FSB\server
+      dockerfile: Dockerfile
+    ports:
+      - "1004:9999"
+  app_5:
+    build:
+      context: D:\git_temp\2025_Welcome_CTF\pwnable\005_ROP\server
+      dockerfile: Dockerfile
+    ports:
+      - "1005:9999"
+
+
+  app_6:
+    build:
+      context: D:\git_temp\2025_Welcome_CTF\misc\001_ELDEN RING\server
+      dockerfile: Dockerfile
+    ports:
+      - "1006:9999"
+
+  app_7:
+    build:
+      context: D:\git_temp\2025_Welcome_CTF\pwnable\006_fake_L\server
+      dockerfile: Dockerfile
+    ports:
+      - "1007:9999"
+
+  app_8:
+    build:
+      context: D:\git_temp\2025_Welcome_CTF\pwnable\007_only_one\server
+      dockerfile: Dockerfile
+    ports:
+      - "1008:9999"
+
+      
