@@ -1,0 +1,28 @@
+﻿#include <stdio.h>
+
+unsigned char byte[] = { 0x82, 0x0B, 0xCB, 0x89, 0x7B, 0x0B, 0x23, 0xDB,
+						 0x92, 0x81, 0xAB, 0x73, 0x23, 0xFA, 0xA1, 0x73,
+						 0x23, 0xFA, 0x92, 0x81, 0xAB, 0x73, 0x23, 0xEB, 0x00 };
+
+int len = sizeof(byte) / sizeof(byte[0]);
+
+
+int ror(int byte, unsigned int n) {
+	return ((byte >> n) | (byte << (8 - n))) & 0xFF;
+}
+
+
+int main() {
+
+	char string[256];
+	memset(string, 0, sizeof(string));
+
+
+	for (int i = 0; i < len; i++) {
+
+		string[i] = (char)ror(byte[i], 3);
+	}
+
+	printf("%s", string);
+
+}

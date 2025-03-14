@@ -1,0 +1,8 @@
+간단한 write-up
+
+
+1. 문제 파일 확인을 위해 ida로 열어봄
+2. 이상함을 느낌, HxD로 까보니 upx 패킹되었다는 것을 확인함
+3. 툴 이용해서 unpack
+4. ida로 열어보니 sleep(INFINITE) -> sleeep(0) 또는 sleep 자체를 nop 처리
+5. 메시지 박스 띄우기!
