@@ -2,7 +2,7 @@
     "challenges": [
       {
         "port": ,
-        "flag": "Pay1oad{{Y0U_57UD13D_DUR1N6_7H3_V4C4710N}",
+        "flag": "Pay1oad{Y0U_57UD13D_DUR1N6_7H3_V4C4710N}",
         "description": "어떤 글을 쓰고 누군가가 보면 순식간에 사라지는 신비한 노트. 하지만 이 노트에는 더 놀라운 비밀이 숨어 있다?!",
         "title": "Magic_Note",
         "point": 200
