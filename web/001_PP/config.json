@@ -1,0 +1,11 @@
+{
+    "challenges": [
+      {
+        "port": "",
+        "flag": "Pay1oad{Proto_Type_Is_Dangerous}",
+        "description": "프로토타입 갱... 프로토타입 by koonta!",
+        "title": "프로토타입 갱",
+        "point": "280"
+      }
+    ]
+}

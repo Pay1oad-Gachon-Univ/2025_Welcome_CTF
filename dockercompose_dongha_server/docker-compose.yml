@@ -55,5 +55,11 @@ services:
       dockerfile: Dockerfile
     ports:
       - "1008:9999"
+  app_9:
+    build:
+      context: D:\git_temp\2025_Welcome_CTF\web\001_PP\server
+      dockerfile: Dockerfile
+    ports:
+      - "1009:9999"
 
       
