@@ -3,7 +3,7 @@
     {
       "port": "",
       "flag": "Pay1oad{59.12.34.120}",
-      "description": "HINT : 성남시 거주!\n\nFLAG : Pay1oad{IP주소}\n",
+      "description": "HINT : 성남시 거주!<br><br>FLAG : Pay1oad{IP주소}<br>",
       "title": "T1595",
       "point": 50
     }
