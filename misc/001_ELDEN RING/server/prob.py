@@ -3,7 +3,7 @@ with open('./flag', 'r', encoding='utf-8') as file:
 
 i = 0
 while 1:
-    if i == len(FLAG) - 1:
+    if i == len(FLAG):
         break
     char = input(f'index {i}: ')
     if char == FLAG[i]:
