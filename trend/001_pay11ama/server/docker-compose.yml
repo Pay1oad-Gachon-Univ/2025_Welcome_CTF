@@ -1,0 +1,13 @@
+services:
+  pay11ama:
+    build: .
+    ports:
+      - "8501:8501"  # 외부에서 접근 가능하도록 포트 매핑
+    environment:
+      - OLLAMA_HOST=http://host.docker.internal:11434  # 도커 외부 Ollama 서버 IP 설정
+    networks:
+      - app_network
+
+networks:
+  app_network:
+    driver: bridge

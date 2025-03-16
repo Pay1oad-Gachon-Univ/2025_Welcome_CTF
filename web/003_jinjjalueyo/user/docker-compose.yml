@@ -1,0 +1,44 @@
+version: "3.9"
+services:
+
+  db:
+    image: mariadb
+    container_name: ctf_mariadb
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpass
+      MYSQL_DATABASE: ${DB_NAME}
+      MYSQL_USER: ${DB_USER}
+      MYSQL_PASSWORD: ${DB_PASSWORD}
+    ports:
+      - "3316:3306"
+    volumes:
+      - ./db/init.sql:/docker-entrypoint-initdb.d/init.sql
+
+  app:
+    build: ./app
+    container_name: ctf_flask_app
+    restart: always
+    depends_on:
+      - db
+    ports:
+      - "5010:5000"
+    environment:
+      DB_HOST: ${DB_HOST}
+      DB_USER: ${DB_USER}
+      DB_PASSWORD: ${DB_PASSWORD}
+      DB_NAME: ${DB_NAME}
+      ADMIN_COOKIE_NAME: ${ADMIN_COOKIE_NAME}
+      ADMIN_COOKIE_VALUE: ${ADMIN_COOKIE_VALUE}
+
+  admin-bot:
+    build: ./admin-bot
+    container_name: ctf_admin_bot
+    depends_on:
+      - app
+    environment:
+      ADMIN_COOKIE_NAME: ${ADMIN_COOKIE_NAME}
+      ADMIN_COOKIE_VALUE: ${ADMIN_COOKIE_VALUE}
+      FLAG_COOKIE_NAME: ${FLAG_COOKIE_NAME}
+      FLAG_COOKIE_VALUE: ${FLAG_COOKIE_VALUE}
+      ADMIN_BOT_TARGET: ${ADMIN_BOT_TARGET}
